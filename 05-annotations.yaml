@@ -7,6 +7,7 @@ metadata:
     trainer: siva
   annotation:
     kubernetes.io/created-by: "sivas"
+    jenkins.build.url: 'https://jenkins.daws79s.online/expense/job/backend/54'
 
 spec: 
   containers:
