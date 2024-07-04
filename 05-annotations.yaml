@@ -1,11 +1,11 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: annotation
+  name: annotations
   labels:
     course: k8
     trainer: siva
-  annotation:
+  annotations:
     kubernetes.io/created-by: "sivas"
     jenkins.build.url: 'https://jenkins.daws79s.online/expense/job/backend/54'
 
