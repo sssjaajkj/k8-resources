@@ -5,7 +5,7 @@ metadata:
 spec: 
   containers:
   - name: nginx
-    image: ngine 
+    image: nginx 
     env:
     - name: course
       value: 'kubernetes'
