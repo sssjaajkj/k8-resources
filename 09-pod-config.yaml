@@ -9,7 +9,7 @@ spec:
 
     envFrom:
     - configMapRef:
-      name: daws78s
+        name: daws78s
 
     # env:
     # - name: course
