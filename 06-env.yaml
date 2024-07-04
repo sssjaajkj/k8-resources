@@ -1,8 +1,8 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: annotations
-spec: 
+  name: env-test
+  spec: 
   containers:
   - name: nginx
     image: ngine 
