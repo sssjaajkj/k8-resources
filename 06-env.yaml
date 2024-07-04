@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+spec: 
+  containers:
+  - name: nginx
+    image: ngine 
+    env:
+    - name: course
+      value: 'kubernetes'
+    - name: '20hrs'  
