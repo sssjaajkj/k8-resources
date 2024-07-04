@@ -9,4 +9,5 @@ spec:
     env:
     - name: course
       value: 'kubernetes'
-    - name: '20hrs'  
+    - name: 'duration'
+      value: '20hrs'
