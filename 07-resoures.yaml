@@ -9,7 +9,7 @@ spec:
     resources:
   # soft limit
       requests:
-       cpu: "100m"4
+       cpu: "100m"
         memory: "128Mi"  
     #limits should be atleat or more then req
        limits:
