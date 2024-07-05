@@ -10,8 +10,8 @@ spec:
     environment: dev 
   ports:
   - portcol: TCP
-    port: '' # service port
-    targetPort: ''  # target-port
+    port:  # service port
+    targetPort:   # target-port
 
 
   
