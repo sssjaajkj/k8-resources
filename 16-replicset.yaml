@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: 
+  name: nginx
   # these labels belong to replicate res
   labels:
     app: nginx
