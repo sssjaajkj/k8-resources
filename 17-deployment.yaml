@@ -14,15 +14,15 @@ spec:
      tier: web
      project: test-project
   
-  template:
-    metadata:
-      labels:
-        app: nginx
-        tier: web
-        project: test-project
-        extra-key: extra-value
+ template:
+   metadata:
+     labels:
+       app: nginx
+       tier: web
+       project: test-project
+       extra-key: extra-value
      
-  spec:
-   containers:
-   - name: nginx
-     image: nginx
+   spec:
+    containers:
+    - name: nginx
+      image: nginx
