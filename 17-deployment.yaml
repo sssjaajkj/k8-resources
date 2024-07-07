@@ -13,7 +13,7 @@ spec:
      app: nginx
      tier: web
      project: test-project
-      # pod def
+  # pod def
   template:
     metadata:
       labels:
